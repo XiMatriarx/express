@@ -1,4 +1,4 @@
-import '../src/index'
+import '../src/config'
 
 describe('Config', () => {
   test('Environment', async () => {

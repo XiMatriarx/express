@@ -1,13 +1,14 @@
 {
   "name": "@ximatriarx/express",
   "version": "1.0.0",
-  "description": "An Express project template",
+  "description": "Express",
   "keywords": [
     "Xi",
     "Matriarx",
     "JavaScript",
     "TypeScript",
-    "Express"
+    "Express",
+    "GraphQL"
   ],
   "author": "Xi Matriarx",
   "license": "MIT",
@@ -131,8 +132,15 @@
   "versions": false,
   "workspace-update": true,
   "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
     "@types/node": "^20.11.17",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "graphql-http": "^1.22.0",
+    "ruru": "^2.0.0-beta.11",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
@@ -143,6 +151,7 @@
     "husky": "^9.0.10",
     "jest": "^29.7.0",
     "lint-staged": "^15.2.2",
+    "nodemon": "^3.0.3",
     "prettier": "^3.2.5",
     "ts-jest": "^29.1.2"
   }
