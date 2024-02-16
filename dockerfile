@@ -15,6 +15,7 @@ WORKDIR /app
 
 COPY package.json .
 COPY package-lock.json .
+COPY --from=express-build /app/node_modules node_modules
 COPY --from=express-build /app/lib .
 
 EXPOSE $PORT
