@@ -2,7 +2,7 @@
 
 <p align="center">An Express project template.</p>
 
-A minimalistic Express project template preconfigured with TypeScript, ESLint, Prettier, Jest, Lint-Staged and Husky.
+A minimalistic Express project template preconfigured with TypeScript, GraphQL, ESLint, Prettier, Jest, Lint-Staged and Husky.
 
 ## Status
 
