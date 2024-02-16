@@ -1,7 +1,7 @@
-import {config} from '../src/index.ts'
+import '../src/index'
 
-describe('Index', () => {
-  test('Config', () => {
-    expect(config).toStrictEqual({environment: 'development'})
+describe('Config', () => {
+  test('Environment', async () => {
+    expect(process.env['ENVIRONMENT']).toBe('development')
   })
 })

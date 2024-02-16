@@ -5,6 +5,7 @@ src
 test
 
 .editorconfig
+.env
 .eslintrc.json
 .eslinttypescriptrc.json
 .gitignore
