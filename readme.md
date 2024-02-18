@@ -1,4 +1,4 @@
-<h1 align="center">✨🧚🏻‍♀️🪄✨ An Express project template 💕🦄🌈🏰</h1>
+<h1 align="center">✨🧚🏻‍♀️🪄✨ Express 💕🦄🌈🏰</h1>
 
 <p align="center">An Express project template.</p>
 
