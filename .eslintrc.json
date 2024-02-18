@@ -5,10 +5,11 @@
   "plugins": ["@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": [".eslinttypescriptrc.json"],
+    "project": [".typescriptrc.json", ".eslinttypescriptrc.json"],
     "sourceType": "module"
   },
   "env": {
+    "node": true,
     "browser": false,
     "es2022": true,
     "jest": true
