@@ -1,14 +1,13 @@
 {
   "name": "@ximatriarx/express",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express",
   "keywords": [
     "Xi",
     "Matriarx",
     "JavaScript",
     "TypeScript",
-    "Express",
-    "GraphQL"
+    "Express"
   ],
   "author": "Xi Matriarx",
   "license": "MIT",
@@ -25,11 +24,11 @@
   "scripts": {
     "start": "node lib/index.js",
     "build": "tsc --project .typescriptrc.json",
-    "dev": "tsc --project .typescriptrc.json --watch",
+    "dev": "tsc --project .typescriptrc.json --watch & nodemon lib/index.js",
     "lint": "eslint src test",
     "style": "prettier --write . --ignore-unknown",
     "test": "jest --config .jestrc.json",
-    "docker": "docker builder build --build-arg='PORT=80' . -t express && docker run -p 80:80 typescript",
+    "docker": "docker builder build --build-arg='PORT=80' . -t express && docker run -p 80:80 express",
     "init": "husky hooks"
   },
   "bin": {
@@ -138,9 +137,6 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.4",
     "express": "^4.18.2",
-    "graphql": "^16.8.1",
-    "graphql-http": "^1.22.0",
-    "ruru": "^2.0.0-beta.11",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
